@@ -26,3 +26,5 @@ C:\Users\aliog\OneDrive\Desktop\web-gelistirme\NetCore\MeetingApp\obj\Debug\net7
 C:\Users\aliog\OneDrive\Desktop\web-gelistirme\NetCore\MeetingApp\obj\Debug\net7.0\ref\MeetingApp.dll
 C:\Users\aliog\OneDrive\Desktop\web-gelistirme\NetCore\MeetingApp\obj\Debug\net7.0\MeetingApp.RazorAssemblyInfo.cache
 C:\Users\aliog\OneDrive\Desktop\web-gelistirme\NetCore\MeetingApp\obj\Debug\net7.0\MeetingApp.RazorAssemblyInfo.cs
+C:\Users\aliog\OneDrive\Desktop\web-gelistirme\NetCore\MeetingApp\bin\Debug\net7.0\libman.json
+C:\Users\aliog\OneDrive\Desktop\web-gelistirme\NetCore\MeetingApp\bin\Debug\net7.0\MeetingApp.staticwebassets.runtime.json
