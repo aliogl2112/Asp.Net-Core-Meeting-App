@@ -7,5 +7,8 @@ namespace MeetingApp.Controllers
         public IActionResult Index(){
             return View();
         }
+        public IActionResult Apply(){
+            return View();
+        }
     }
 }
