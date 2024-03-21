@@ -16,18 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\Users\aliog\OneDrive\Desktop\web-gelistirme\NetCore\MeetingApp
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/aliog/OneDrive/Desktop/web-gelistirme/NetCore/MeetingApp/View/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld1xIb21lXEluZGV4LmNzaHRtbA==
+[c:/Users/aliog/OneDrive/Desktop/web-gelistirme/NetCore/MeetingApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/aliog/OneDrive/Desktop/web-gelistirme/NetCore/MeetingApp/View/Meeting/Apply.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld1xNZWV0aW5nXEFwcGx5LmNzaHRtbA==
+[c:/Users/aliog/OneDrive/Desktop/web-gelistirme/NetCore/MeetingApp/Views/Meeting/Apply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldGluZ1xBcHBseS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/aliog/OneDrive/Desktop/web-gelistirme/NetCore/MeetingApp/View/Meeting/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld1xNZWV0aW5nXEluZGV4LmNzaHRtbA==
+[c:/Users/aliog/OneDrive/Desktop/web-gelistirme/NetCore/MeetingApp/Views/Meeting/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldGluZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/aliog/OneDrive/Desktop/web-gelistirme/NetCore/MeetingApp/View/Meeting/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld1xNZWV0aW5nXExpc3QuY3NodG1s
+[c:/Users/aliog/OneDrive/Desktop/web-gelistirme/NetCore/MeetingApp/Views/Meeting/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldGluZ1xMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
