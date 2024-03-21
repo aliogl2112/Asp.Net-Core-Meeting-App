@@ -4,8 +4,8 @@ namespace MeetingApp.Controllers
 {
     public class MeetingController : Controller
     {
-        public string Index(){
-            return "Meeting Controller";
+        public IActionResult Index(){
+            return View();
         }
     }
 }
