@@ -3,7 +3,7 @@
     ViewBag.Title="Başvuru Formu";
 }
 <h1 class="text-center">Toplantı Katılım Formu</h1>
-<form>
+<form method="post" action="/meeting/apply">
     <div class="mb-3">
         <label asp-for="Name" class="form-label">İsim</label>
         <input asp-for="Name" class="form-control">

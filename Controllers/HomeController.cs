@@ -8,7 +8,7 @@ namespace MeetingApp.Controllers
         public IActionResult Index(){
             int time = DateTime.Now.Hour;
             ViewBag.Message = time>12?"İyi Günler":"Günaydın";
-            ViewData["username"]="Ali";
+            // ViewData["username"]="Ali";
 
             var meetingInfo = new MeetingInfo(){
                 ID=1,
