@@ -2,6 +2,13 @@ using System.Net.Mail;
 
 namespace MeetingApp.Models{
 public class UserInfo{
+    private int id;
+    public int ID
+    {
+        get { return id; }
+        set { id = value; }
+    }
+    
     private string? name;
     public string? Name
     {

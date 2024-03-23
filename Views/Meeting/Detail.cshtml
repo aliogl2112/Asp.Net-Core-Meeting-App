@@ -1,0 +1,38 @@
+@model UserInfo
+@{
+    ViewBag.Title="Detay Sayfası - Meeting App";
+}
+<main class="text-center">
+    <table class="table table-bordered">
+        <h1 class="mb-3">Kullanıcı Detay</h1>
+        <thead>
+            <tr>
+                <td>
+                    İsim
+                </td>
+                <td>
+                    Telefon Numarası
+                </td>
+                <td>
+                    Email
+                </td>
+                <td>
+                    Katılım Durumu
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                var willAttend = @Model.WillAttend?"Evet":"Hayır";
+                var className = @Model.WillAttend?"table-success":"table-danger";
+            }
+            <tr class="@className">
+                <td>@Model.Name</td>
+                <td>@Model.Phone</td>
+                <td>@Model.Email</td>
+                <td>@willAttend</td>
+            </tr>
+        </tbody>
+    </table>
+    <a asp-controller="meeting" asp-action="list" class="btn btn-primary">Katılımcı Listesi</a>
+</main>

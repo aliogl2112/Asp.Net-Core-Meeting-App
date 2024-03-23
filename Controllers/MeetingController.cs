@@ -21,5 +21,12 @@ namespace MeetingApp.Controllers
         public IActionResult List(){
             return View(Repository.Users);
         }
+
+        public IActionResult Detail(int? id){
+            if(id is null){
+                RedirectToAction("list","meeting");
+            }
+            return View(Repository.GetById(id));
+        }
     }
 }
