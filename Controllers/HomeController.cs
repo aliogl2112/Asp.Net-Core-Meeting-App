@@ -16,7 +16,6 @@ namespace MeetingApp.Controllers
                 Date= new DateTime(2024,1,20,20,0,0),
                 NumberOfPeople=100
             };
-
             return View(meetingInfo);
         }
     }
