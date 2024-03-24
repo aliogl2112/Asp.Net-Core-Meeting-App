@@ -2,8 +2,9 @@
 @{
     ViewBag.Title="Başvuru Formu";
 }
-<h1 class="text-center">Toplantı Katılım Formu</h1>
+<h1 class="text-center mb-4">Toplantı Katılım Formu</h1>
 <form method="post" action="/meeting/apply">
+    <div class="text-danger" asp-validation-summary="All"></div>
     <div class="mb-3">
         <label asp-for="Name" class="form-label">İsim</label>
         <input asp-for="Name" class="form-control">
@@ -17,8 +18,13 @@
         <input asp-for="Email" class="form-control">
     </div>
     <div class="mb-3">
-        <input asp-for="WillAttend" class="form-check-input">
-        <label asp-for="WillAttend" class="form-check-label">Katılıyorum</label>
+        <label asp-for="WillAttend" class="form-label">Katılım Durumu</label>
+        <select asp-for="WillAttend" class="form-select">
+            <option value="">Seçiniz</option>
+            <option value="true">Evet, Katılıyorum.</option>
+            <option value="false">Hayır, Katılmıyorum.</option>
+        </select>
+
     </div>
     <button class="btn btn-primary" type="submit">Kaydet</button>
 </form>

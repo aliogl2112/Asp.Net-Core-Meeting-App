@@ -23,8 +23,8 @@
         </thead>
         <tbody>
             @{
-                var willAttend = @Model.WillAttend?"Evet":"Hayır";
-                var className = @Model.WillAttend?"table-success":"table-danger";
+                var willAttend = @Model.WillAttend==true?"Evet":"Hayır";
+                var className = @Model.WillAttend==true?"table-success":"table-danger";
             }
             <tr class="@className">
                 <td>@Model.Name</td>

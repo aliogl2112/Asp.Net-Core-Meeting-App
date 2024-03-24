@@ -13,10 +13,15 @@ namespace MeetingApp.Controllers
 
         [HttpPost]
         public IActionResult Apply(UserInfo user){
+            if(ModelState.IsValid){
             Repository.CreateUser(user);
             int userCount=Repository.Users.Where(user=>user.WillAttend==true).Count();
             ViewBag.Message = userCount >=2?$"Toplantıya sizinle beraber {userCount} kişi katılıyor.":"Şu anda tek katılımcı sizsiniz.";
             return View("Thanks",user);
+            }
+            else{
+                return View(user);
+            }
         }
         public IActionResult List(){
             return View(Repository.Users);
